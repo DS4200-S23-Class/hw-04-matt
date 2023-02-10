@@ -17,22 +17,13 @@ body {
 	align-items: left;
   }
 /* Make flexbox width 50%*/
-  .flexbox div {
+  .flexbox1 div {
 	max-width: 60%;
   }
   .flexbox2 div {
 	max-width: 40%;
   }
-/* Align items left*/
-  .box {
-	  float: left;
-	  width: 47%;
-	  max-height: 100%;
-	  max-width: 100%;
-	  align-items: left;
-	  text-align: left;
-	  box-align: left;
-  }
+
   svg.graph {
     height: 500px;
     width: 800px;
@@ -43,10 +34,28 @@ body {
     stroke-dasharray: 1 2;
     stroke-width: 1;
   }
-  svg.graph .points {
+    /*svg.graph .points {
     stroke: white;
     stroke-width: 3;
   }
   svg.graph .first_set {
     fill: #00554d;
+  }*/
+
+  circle{
+    fill: #00554d;
+    stroke: white;
+    stroke-width: 3;
   }
+  circle:hover{
+    fill: Red;
+    stroke-width: 3;
+  }
+
+.circle-click{
+  fill: #00554d;
+  stroke: darkslateblue;
+  stroke-width: 3;
+}
+
+
