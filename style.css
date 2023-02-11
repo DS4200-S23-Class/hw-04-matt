@@ -17,15 +17,16 @@ body {
 	align-items: left;
   }
 /* Make flexbox width 50%*/
-  .flexbox1 div {
+  .flexbox1 {
 	max-width: 60%;
   }
-  .flexbox2 div {
-	max-width: 40%;
+  .flexbox2 {
+    text-align: left;
+	 max-width: 40%;
   }
 
   svg.graph {
-    height: 500px;
+    height: 800px;
     width: 800px;
   }
   
@@ -54,7 +55,7 @@ body {
 
 .circle-click{
   fill: #00554d;
-  stroke: darkslateblue;
+  stroke: greenyellow;
   stroke-width: 3;
 }
 
