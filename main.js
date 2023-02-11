@@ -9,10 +9,19 @@ function clickPoint(name){
 	document.getElementById(name).classList.toggle("circle-click");
 }
 
+
+i = 1;
+
+
 function addPoint(){
 x = document.getElementById("x_cord").options[document.getElementById("x_cord").selectedIndex].value;
 y = document.getElementById("y_cord").options[document.getElementById("y_cord").selectedIndex].value;
-document.getElementByDatasetName()
+var myCircle = document.createElementNS(document.getElementById("List"),"circle"); //to create a circle. for rectangle use "rectangle"
+    myCircle.setAttributeNS(null, "id",i);
+    i = i + 1;
+    myCircle.setAttributeNS(null,"cx",x);
+    myCircle.setAttributeNS(null,"cy",y);
+    console.log(myCircle);
 }
 
 
