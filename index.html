@@ -20,16 +20,54 @@
                 <line x1="30" x2="30" y1="30" y2="430" style="stroke:black;stroke-width:4"></line>
                 <line x1="30" x2="430" y1="430" y2="430" style="stroke:black;stroke-width:4"></line>
                 <g class="first_set points" data-setname="Our first data set">
-                    <circle id = 'c1' onclick = "clickPoint('c1')" cx="70" cy="350" r="8"></circle>
-                    <circle id = 'c2' onclick = "clickPoint('c2')" cx="110" cy="270" r="8"></circle>
-                    <circle id = 'c3' onclick = "clickPoint('c3')" cx="270" cy="350" r="8"></circle>
-                    <circle id = 'c4' onclick = "clickPoint('c4')" cx="390" cy="70" r="8"></circle>
+                    <circle id = 'c1' onclick = "clickPoint('c1')" cx="70" cy="350" r="12"></circle>
+                    <circle id = 'c2' onclick = "clickPoint('c2')" cx="110" cy="270" r="12"></circle>
+                    <circle id = 'c3' onclick = "clickPoint('c3')" cx="270" cy="350" r="12"></circle>
+                    <circle id = 'c4' onclick = "clickPoint('c4')" cx="390" cy="70" r="12"></circle>
                 </g>
         
         
         </div>
         <div class = "flexbox2">
-            <p id = "cord" >Click a point to see it's cordinate!</p>
+            <div>
+                <p id = "cord" >Click a point to see it's cordinate!</p>
+            </div>
+            <div>
+                <body> Select the x coordinate for the point you want to add. </body>
+                <select id = "x_cord">
+                <option value = 0> - </option>
+                <option value = 1> 1 </option>
+                <option value = 2> 2 </option>
+                <option value = 3> 3 </option>
+                <option value = 4> 4 </option>
+                <option value = 5> 5 </option>
+                <option value = 6> 6 </option>
+                <option value = 7> 7 </option>
+                <option value = 8> 8 </option>
+                <option value = 9> 9 </option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <body> Select the y coordinate for the point you want to add. </body>
+                <select id = "y_cord">
+                <option value = 0> - </option>
+                <option value = 1> 1 </option>
+                <option value = 2> 2 </option>
+                <option value = 3> 3 </option>
+                <option value = 4> 4 </option>
+                <option value = 5> 5 </option>
+                <option value = 6> 6 </option>
+                <option value = 7> 7 </option>
+                <option value = 8> 8 </option>
+                <option value = 9> 9 </option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <button id = "Add">Add Point</button>
+            </div>
+
         </div>
         </div>
     </div>

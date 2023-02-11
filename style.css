@@ -12,7 +12,6 @@ body {
 	max-width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: left;
   }
@@ -21,7 +20,7 @@ body {
 	max-width: 60%;
   }
   .flexbox2 {
-    text-align: left;
+  text-align: left;
 	 max-width: 40%;
   }
 
@@ -46,17 +45,17 @@ body {
   circle{
     fill: #00554d;
     stroke: white;
-    stroke-width: 3;
+    stroke-width: 4;
   }
   circle:hover{
     fill: Red;
-    stroke-width: 3;
+    stroke-width: 4;
   }
 
 .circle-click{
   fill: #00554d;
   stroke: greenyellow;
-  stroke-width: 3;
+  stroke-width: 4;
 }
 
 
