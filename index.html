@@ -14,7 +14,7 @@
 
     <div id = "Channels">
         <div class = "flexbox">
-			<!-- Create flexbox for the picutres on the right side and text on the left side of it -->
+			<!-- Create div for standard circles that are already on the graph and make axis -->
         <div class = "flexbox1">
             <svg class="graph" width="420" height="150">
                 <line x1="30" x2="30" y1="30" y2="430" style="stroke:black;stroke-width:4"></line>
@@ -28,14 +28,16 @@
         
         
         </div>
+        <!-- Create div for points that the user inputs -->
         <div class = "flexbox2">
             <div>
-                <p id = "cord" >Click a point to see it's cordinate!</p>
+                <p id = "cord" >Click a point to see it's coordinate!</p>
             </div>
             <div>
+                <!-- Create select option with x-axis options for the point  -->
                 <body> Select the x coordinate for the point you want to add. </body>
                 <select id = "x_cord">
-                <option value = 0> - </option>
+                <option value = 0> 0 </option>
                 <option value = 1> 1 </option>
                 <option value = 2> 2 </option>
                 <option value = 3> 3 </option>
@@ -49,9 +51,10 @@
             </div>
             <br>
             <div>
+                <!-- Create select option with y-axis options for point  -->
                 <body> Select the y coordinate for the point you want to add. </body>
                 <select id = "y_cord">
-                <option value = 0> - </option>
+                <option value = 0> 0 </option>
                 <option value = 1> 1 </option>
                 <option value = 2> 2 </option>
                 <option value = 3> 3 </option>
@@ -65,12 +68,14 @@
             </div>
             <br>
             <div>
+                <!-- Add a button to add the point once the user picked the coordinates  -->
                 <button id = "Add">Add Point</button>
             </div>
 
         </div>
         </div>
     </div>
+    <!-- Link to javascript file-->
 <script src = "main.js" type="text/javascript"></script>
 </body>
 
