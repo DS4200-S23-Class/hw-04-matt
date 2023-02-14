@@ -38,7 +38,7 @@ body {
 /* Make points a darker color*/
   circle{
     fill: #00554d;
-    stroke: white;
+    stroke: transparent;
     stroke-width: 4;
   }
   /* Change color of circle when you hover over it to red*/
